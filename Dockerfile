@@ -20,4 +20,4 @@ RUN php composer.phar create-project --prefer-dist laravel/laravel laravel
 
 # Set the entry point for the container, wich starts the laravel server
 ENTRYPOINT [ "php","laravel/artisan","serve" ]
-CMD [ "--hots=0.0.0.0" ]
+CMD [ "--host=0.0.0.0" ]
